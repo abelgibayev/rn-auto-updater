@@ -34,6 +34,8 @@ target 'attempt' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+  pod 'RNDynamicBundle', :path => '../node_modules/react-native-dynamic-bundle'
+
   target 'attemptTests' do
     inherit! :search_paths
     # Pods for testing

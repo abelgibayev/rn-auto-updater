@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android --port 8899",
+    "bundl": "cd android && gradlew bundleRelease",
     "cache": "cd ./android && gradlew clean && cd..",
     "ios": "react-native run-ios",
     "start": "react-native start --port 8899",
@@ -13,7 +14,8 @@
   },
   "dependencies": {
     "react": "16.9.0",
-    "react-native": "0.61.2"
+    "react-native": "0.61.2",
+    "react-native-dynamic-bundle": "^0.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
